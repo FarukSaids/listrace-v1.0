@@ -41,48 +41,28 @@ $(document).ready(function(){
 	        centerMode: true,
 	        autoplay:true,
 	        slidesToShow: 5,
-	        slidesToScroll: 5,
-	        autoplaySpeed:500,
-	        // the magic
-			responsive: [
-				{
-
-					breakpoint:1440,
-					settings: {
-					slidesToShow:3
-					}
-
-				},
-				{
-
-					breakpoint: 1024,
-					settings: {
-					slidesToShow:2,
-					
-					}
-
-				}, 
-				{
-
-					breakpoint:991,
-					settings: {
-					slidesToShow:2,
-					centerMode:false,
-					}
-
-				},
-				{
-
-					breakpoint:767,
-					settings: {
-					slidesToShow:1,
-					}
-
-				}
-			]
+	        slidesToScroll: 1,
+	        autoplaySpeed: 900,
+			
+			
+			
+	    
 	    });
+	
 
+		$(document).ready(function(){
+			$('.autoplay').slick({
+				infinite: true,
+				centerMode: true,
+				autoplay:true,
+				slidesToShow: 5,
+				slidesToScroll: 1,
+				autoplaySpeed: 900,
+			});
+		  });
 
+		  
+		
 
     // 3. welcome animation support
 

@@ -3,12 +3,9 @@
 * Template Name : Listrace  HTML Template
 * Version       : 1.0
 ==================================== */
-
 /*==================================
 font-family: 'Roboto', sans-serif;
 ==================================== */
-
-
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
 2.  Header-top
@@ -23,7 +20,6 @@ font-family: 'Roboto', sans-serif;
 11. Subscribe
 12. Footer
 ==========================================*/
-
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
@@ -31,7 +27,6 @@ font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
-
 *{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -84,9 +79,7 @@ ul li {
 }
 select,input,textarea,button{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;font-size: 12px;}
-
 html,body{height: 100%;}
-
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
   -moz-transition: opacity 0.3s 0.3s ease; 
@@ -95,7 +88,6 @@ html,body{height: 100%;}
   transition: opacity 0.3s 0.3s ease; 
   opacity: 0;
 }
-
 /* section-header */
 .section-header{
     position: relative;
@@ -116,17 +108,12 @@ html,body{height: 100%;}
 /* section-header */
 .fix{position: relative;clear: both;}
 /*=============Style css=========*/
-
-
 /*-------------------------------------
         2. Header-top
 --------------------------------------*/
 .header-top{border-bottom:1px solid #f6f8fa;}
-
 .header-top ul li {display: inline-block;}
-
 .header-top-left li,.header-top-right li  {display: inline-block;}
-
 /*.select-opt*/
 .select-opt,.header-top-contact{
     padding: 10px 18px;
@@ -156,15 +143,12 @@ html,body{height: 100%;}
     font-size: 12px;
     color: #373939;
 }
-/*.select-opt*/
 
 .header-top-right ul li a{
     color:#a7b0ba;
     font-size: 12px;
     font-weight: 300;
 }
-
-
 /*-------------------------------------
         3. Top-area
 --------------------------------------*/
@@ -173,7 +157,6 @@ nav.navbar.bootsnav {
     border-bottom: transparent;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
-
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
@@ -184,11 +167,9 @@ nav.navbar.bootsnav {
     text-transform:capitalize;
 }
 .navbar-header a.navbar-brand span{display: inline-block;color:#ff545a;text-transform:capitalize;}
-
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 /*.navbar-brand*/
 
-/*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     color: #859098;
     font-size: 14px;
@@ -237,9 +218,6 @@ nav.navbar.bootsnav .navbar-toggle {
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*.navbar-toggle */
-
-
-
 /*-------------------------------------
       CONTAİNER YENİ
 --------------------------------------*/
@@ -252,7 +230,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-right: auto;
     margin-left: auto;
 }
-
 /*-------------------------------------
         4.  Welcome-hero
          background:rgba(65,73,89,.65);
@@ -273,7 +250,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     text-align: center;
     color: white; /* Yazılar için */
 }
-
 .background-video {
     position: absolute;
     top: 0;
@@ -284,7 +260,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     z-index: 1;
      /* Video geride kalacak */
 }
-
 .welcome-hero-txt1 {
     position: relative;
     z-index: 2; /* Yazılar videonun önünde görünecek */
@@ -294,7 +269,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Yazılar okunabilir olsun diye gölge */
 }
-
 .welcome-hero-txt1 h2
 { font-size: 60px;
     color: #fff;
@@ -303,14 +277,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     letter-spacing: 2.4px;
     line-height: 1.4;
 }
-
  .welcome-hero-txt1 p {
     font-size: 18px;
     color: #fcfcfc;
     margin-top: 25px;
 }
-
-
 .welcome-hero {
     position: relative;
     background:url(../images/ekgorsel/gorsel3.jpg)no-repeat;
@@ -680,12 +651,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         8. Reviews
 --------------------------------------*/
-.reviews{padding:70px 0 75px;}
-.reviews-content {margin-top:36px;}
+.reviews{padding:20px 0 25px;}
+.reviews-content {margin-top:10px;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
-    padding: 90px 30px;
+    padding: 40px 30px;
     box-shadow: 0 0px 5px rgba(71,71,71,.2); 
     overflow-x:hidden;
     -webkit-transition: .3s; 
@@ -718,37 +689,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     -o-transition:.3s;
     transition: .3s;
 }
-.testimonial-person {
-    margin-left: 15px;
-    margin-top: 11px;
-}
-.testimonial-person h2 {
-    color: #505866;
-    font-size: 18px;
-}
-.testimonial-person h4 {
-    color: #a2a5ab;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 10px;
-}
-.testimonial-person-star i {
-    color: #ffda2b;
-    margin: 9px 4px 0 0;
-}/* testimonial-info */
-
-
-/* testimonial-comment */
-.testimonial-comment {
-    margin-top: 18px;
-}
-.testimonial-comment p{
-    color: #8d939e;
-    font-size: 14px;
-    font-weight: 300;
-}/* testimonial-comment */
-
-
 /*.slick-slide*/
 .slick-initialized .slick-slide {
     display: block;
@@ -757,13 +697,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .slick-slide.slick-cloned {outline: 0!important;}
 .slick-slide {
   margin: 0px 10px;
+ 
 }
 .slick-slide {
   transition: all ease-in-out .3s;
-  opacity: .5;
+  opacity: .5; 
 }
 .slick-active {
   opacity: .5;
+
 }
 .slick-current {
   opacity: 1;
